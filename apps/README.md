@@ -4,10 +4,10 @@ Este directorio contiene todas las aplicaciones del monorepo.
 
 ## Aplicaciones planificadas
 
-| App | Tecnología | Descripción |
-|-----|-----------|-------------|
+| App   | Tecnología                             | Descripción                     |
+| ----- | -------------------------------------- | ------------------------------- |
 | `web` | Next.js 15 + TypeScript + Tailwind CSS | Frontend principal (App Router) |
-| `api` | NestJS + Node.js | Backend REST API |
+| `api` | NestJS + Node.js                       | Backend REST API                |
 
 Cada app se genera con su plugin Nx correspondiente:
 

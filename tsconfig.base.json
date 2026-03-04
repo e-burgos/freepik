@@ -4,7 +4,7 @@
     "rootDir": ".",
     "sourceMap": true,
     "declaration": false,
-    "moduleResolution": "bundler",
+    "moduleResolution": "node",
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
     "importHelpers": true,
@@ -18,10 +18,14 @@
     "noUncheckedIndexedAccess": true,
     "noImplicitOverride": true,
     "paths": {
+      "@freepik/config-env": ["packages/config-env/src/index.ts"],
       "@freepik/shared-types": ["packages/shared-types/src/index.ts"],
-      "@freepik/shared-utils": ["packages/shared-utils/src/index.ts"],
       "@freepik/shared-ui": ["packages/shared-ui/src/index.ts"],
-      "@freepik/config-env": ["packages/config-env/src/index.ts"]
+      "@freepik/shared-utils": ["packages/shared-utils/src/index.ts"],
+      "config-env": ["packages/config-env/src/index.ts"],
+      "shared-types": ["packages/shared-types/src/index.ts"],
+      "shared-ui": ["packages/shared-ui/src/index.ts"],
+      "shared-utils": ["packages/shared-utils/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]

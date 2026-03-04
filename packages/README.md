@@ -7,12 +7,12 @@ vive aquí como una librería Nx con `scope:shared`. (Constitución — Principi
 
 ## Librerías planificadas
 
-| Package | Tag Nx | Descripción |
-|---------|--------|-------------|
-| `shared-types` | `scope:shared`, `type:util` | DTOs, interfaces y tipos TypeScript compartidos |
+| Package        | Tag Nx                      | Descripción                                        |
+| -------------- | --------------------------- | -------------------------------------------------- |
+| `shared-types` | `scope:shared`, `type:util` | DTOs, interfaces y tipos TypeScript compartidos    |
 | `shared-utils` | `scope:shared`, `type:util` | Utilidades puras (helpers, validators, formatters) |
-| `shared-ui` | `scope:shared`, `type:ui` | Componentes UI reutilizables (React) |
-| `config-env` | `scope:shared`, `type:util` | Validación y tipado de variables de entorno |
+| `shared-ui`    | `scope:shared`, `type:ui`   | Componentes UI reutilizables (React)               |
+| `config-env`   | `scope:shared`, `type:util` | Validación y tipado de variables de entorno        |
 
 ## Paths en `tsconfig.base.json`
 
@@ -20,8 +20,8 @@ vive aquí como una librería Nx con `scope:shared`. (Constitución — Principi
 {
   "@freepik/shared-types": ["packages/shared-types/src/index.ts"],
   "@freepik/shared-utils": ["packages/shared-utils/src/index.ts"],
-  "@freepik/shared-ui":    ["packages/shared-ui/src/index.ts"],
-  "@freepik/config-env":   ["packages/config-env/src/index.ts"]
+  "@freepik/shared-ui": ["packages/shared-ui/src/index.ts"],
+  "@freepik/config-env": ["packages/config-env/src/index.ts"]
 }
 ```
 

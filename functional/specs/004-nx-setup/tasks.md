@@ -1,5 +1,5 @@
 ---
-description: "Tareas de setup del monorepo Nx para Freepik Clone MVP"
+description: 'Tareas de setup del monorepo Nx para Freepik Clone MVP'
 ---
 
 # Tasks: 004 — Nx Monorepo Setup
@@ -49,9 +49,9 @@ description: "Tareas de setup del monorepo Nx para Freepik Clone MVP"
 
 Las siguientes tareas corresponden a ramas de feature separadas:
 
-| Rama | Tarea |
-|------|-------|
-| `005-spec-auth` | Primera spec completa — módulo `auth` (registro, login, OAuth, roles) |
-| `006-app-web` | Generar app Next.js con `@nx/next`, configurar Tailwind CSS v4, App Router |
-| `007-app-api` | Generar app NestJS con `@nx/nest`, configurar Prisma, módulo `auth` |
-| `008-docker-infra` | `docker-compose.yml` para PostgreSQL + Redis (dev/CI) |
+| Rama               | Tarea                                                                      |
+| ------------------ | -------------------------------------------------------------------------- |
+| `005-spec-auth`    | Primera spec completa — módulo `auth` (registro, login, OAuth, roles)      |
+| `006-app-web`      | Generar app Next.js con `@nx/next`, configurar Tailwind CSS v4, App Router |
+| `007-app-api`      | Generar app NestJS con `@nx/nest`, configurar Prisma, módulo `auth`        |
+| `008-docker-infra` | `docker-compose.yml` para PostgreSQL + Redis (dev/CI)                      |
