@@ -1,0 +1,39 @@
+{
+  "name": "freepik-clone",
+  "version": "0.0.1",
+  "private": true,
+  "description": "Freepik Clone MVP — Nx monorepo with pnpm",
+  "scripts": {
+    "dev": "nx run-many --target=serve --all",
+    "build": "nx run-many --target=build --all",
+    "test": "nx run-many --target=test --all",
+    "lint": "nx run-many --target=lint --all",
+    "type-check": "nx run-many --target=type-check --all",
+    "format": "nx format:write",
+    "format:check": "nx format:check",
+    "affected:test": "nx affected --target=test",
+    "affected:lint": "nx affected --target=lint",
+    "affected:build": "nx affected --target=build"
+  },
+  "devDependencies": {
+    "@nx/eslint": "^21.0.0",
+    "@nx/jest": "^21.0.0",
+    "@nx/js": "^21.0.0",
+    "@nx/next": "^21.0.0",
+    "@nx/nest": "^21.0.0",
+    "@nx/node": "^21.0.0",
+    "@nx/workspace": "^21.0.0",
+    "@swc-node/register": "^1.9.2",
+    "@swc/core": "~1.5.7",
+    "@swc/helpers": "~0.5.11",
+    "@types/node": "^22.0.0",
+    "nx": "^21.0.0",
+    "prettier": "^3.3.3",
+    "typescript": "~5.7.2"
+  },
+  "engines": {
+    "node": ">=20.0.0",
+    "pnpm": ">=10.0.0"
+  },
+  "packageManager": "pnpm@10.14.0"
+}
