@@ -58,6 +58,19 @@ Este repositorio es un **monorepo gestionado con [Nx](https://nx.dev)** (última
 
 Este proyecto adopta **Spec Driven Development (SDD)** con **GitHub Spec Kit**: cada módulo o feature se especifica completamente en un Issue (criterios de aceptación, contratos de API, modelos de datos) antes de escribir código. Los PRs de implementación referencian siempre su spec para trazabilidad total.
 
+Todos los artefactos de Spec Kit viven bajo `functional/` para mantener la organización del repo:
+
+```
+functional/
+├── .specify/          # Configuración, memoria, plantillas y scripts de Spec Kit
+│   ├── memory/        # constitution.md y documentos persistentes
+│   ├── scripts/bash/  # Scripts de automatización (ejecutar desde la raíz del repo)
+│   └── templates/     # Plantillas para specs, plans, tasks, etc.
+└── specs/             # Especificaciones de features (una carpeta por rama)
+```
+
+Los **prompts de Copilot** están en `.github/prompts/speckit.*.prompt.md` y los **agentes** en `.github/agents/speckit.*.agent.md` (ubicaciones estándar de VS Code).
+
 > Flujo SDD, template de spec y beneficios del enfoque:
 > **[docs/sdd-methodology.md](docs/sdd-methodology.md)**
 
